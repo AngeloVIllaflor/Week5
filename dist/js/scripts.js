@@ -11,7 +11,7 @@
 // LESSON 21 - COMMENT // 
 window.addEventListener('DOMContentLoaded', event => {
 
-    // Activate Bootstrap scrollspy on the main nav element
+    // LESSON 2 - CONST //
     const sideNav = document.body.querySelector('#sideNav');
     if (sideNav) {
         new bootstrap.ScrollSpy(document.body, {
