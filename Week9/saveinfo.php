@@ -2,8 +2,8 @@
 $fullname = filter_input(INPUT_POST, 'fullname');
 $email = filter_input(INPUT_POST, 'email');
 
-if (!empty($fullName)){
-    if (!empty($emailUsed)){
+if (!empty($fullname)){
+    if (!empty($email)){
 
         $host = "localhost";
         $dbusername = "webprogmi211";
