@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Resume v7.0.5 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 
 // LESSON 1 - COMMENT // 
 window.addEventListener('DOMContentLoaded', event => {
@@ -22,6 +13,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
    // LESSON 22 - DOCUMENT //
     const navbarToggler = document.body.querySelector('.navbar-toggler');
+    // LESSON 27 - QUERY SELECTORS //
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
     );
