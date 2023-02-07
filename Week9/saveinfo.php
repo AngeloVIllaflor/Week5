@@ -1,6 +1,6 @@
 <?php
-$fullName = filter_input(INPUT_POST, 'fullname');
-$emailUsed = filter_input(INPUT_POST, 'email');
+$fullname = filter_input(INPUT_POST, 'fullname');
+$email = filter_input(INPUT_POST, 'email');
 
 if (!empty($fullName)){
     if (!empty($emailUsed)){
