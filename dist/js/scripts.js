@@ -8,7 +8,7 @@
 // 
 
 
-// LESSON 21 - COMMENT // 
+// LESSON 1 - COMMENT // 
 window.addEventListener('DOMContentLoaded', event => {
 
     // LESSON 2 - CONST //
