@@ -18,6 +18,7 @@ window.addEventListener('DOMContentLoaded', event => {
         document.querySelectorAll('#navbarResponsive .nav-link')
     );
     responsiveNavItems.map(function (responsiveNavItem) {
+        // LESSONS 11 - MAPS //
         responsiveNavItem.addEventListener('click', () => {
             // LESSON 23 - WINDOW // 
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
